@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    font-family: 'Rubik Marker Hatch', cursive;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(to right,#023E73,#D8D9BA); */
+    background-image:url(images/Pupfeeter_2.jpg);
+    background-size: 450px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(253, 253, 253);
+}
+
+.menu-bar{
+    background-color:rgb(112, 158, 104);
+    overflow: auto;
+}
+
+.menu-bar a{
+    padding: 16.5px; /*defalt : 12*/
+    display: inline-block;
+    font-size:18px; /*defalt : 18*/
+    float : left;
+    
+}
+.menu-bar a:hover{
+    background-color: #000;
+}
+.menu bar a.active{
+    background-color: aqua;
+}
